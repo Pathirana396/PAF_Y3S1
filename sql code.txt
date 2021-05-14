@@ -1,0 +1,9 @@
+CREATE TABLE `project`.`project` 
+( `projectID` INT(100) NOT NULL AUTO_INCREMENT , 
+`projectName` VARCHAR(100) NOT NULL , 
+`projectEmail` VARCHAR(20) NOT NULL , 
+`projectTitle` VARCHAR(100) NOT NULL , 
+`projectDesc` VARCHAR(100) NOT NULL , 
+`projectLink` VARCHAR(1000) NOT NULL , 
+`projectVideo` VARCHAR(1000) NOT NULL , 
+PRIMARY KEY (`projectID`)) ENGINE = InnoDB;
